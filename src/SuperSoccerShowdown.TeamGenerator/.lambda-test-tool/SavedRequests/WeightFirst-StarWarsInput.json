@@ -1,0 +1,41 @@
+{
+    "StrategyType": 0,
+    "numberOfOffencePlayers": 3,
+    "Players": [
+        {
+            "Id": 9,
+            "Name": "Biggs Darklighter",
+            "Weight": 84,
+            "Height": 183,
+            "PlayerType": 0
+        },
+        {
+            "Id": 53,
+            "Name": "Kit Fisto",
+            "Weight": 87,
+            "Height": 196,
+            "PlayerType": 0
+        },
+        {
+            "Id": 55,
+            "Name": "Adi Gallia",
+            "Weight": 50,
+            "Height": 184,
+            "PlayerType": 0
+        },
+        {
+            "Id": 44,
+            "Name": "Darth Maul",
+            "Weight": 80,
+            "Height": 175,
+            "PlayerType": 0
+        },
+        {
+            "Id": 69,
+            "Name": "Jango Fett",
+            "Weight": 79,
+            "Height": 183,
+            "PlayerType": 0
+        }
+    ]
+}

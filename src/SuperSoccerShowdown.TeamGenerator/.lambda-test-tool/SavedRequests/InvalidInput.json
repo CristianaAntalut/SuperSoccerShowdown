@@ -1,0 +1,13 @@
+{
+    "StrategyType" : 0,
+    "numberOfOffencePlayers" : 3,
+        "Players": [
+        {
+            "Id": 486,
+            "Name": "regigigas",
+            "Weight": 4200,
+            "Height": 37,
+            "PlayerType": 0
+        }
+    ]
+}

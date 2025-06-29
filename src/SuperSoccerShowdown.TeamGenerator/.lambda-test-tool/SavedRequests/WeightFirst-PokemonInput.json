@@ -1,0 +1,41 @@
+{
+    "StrategyType" : 1,
+    "numberOfOffencePlayers" : 3,
+        "Players": [
+        {
+            "Id": 486,
+            "Name": "regigigas",
+            "Weight": 4200,
+            "Height": 37,
+            "PlayerType": 0
+        },
+        {
+            "Id": 964,
+            "Name": "palafin-zero",
+            "Weight": 602,
+            "Height": 13,
+            "PlayerType": 0
+        },
+        {
+            "Id": 483,
+            "Name": "dialga",
+            "Weight": 6830,
+            "Height": 54,
+            "PlayerType": 0
+        },
+        {
+            "Id": 527,
+            "Name": "woobat",
+            "Weight": 21,
+            "Height": 4,
+            "PlayerType": 0
+        },
+        {
+            "Id": 754,
+            "Name": "lurantis",
+            "Weight": 185,
+            "Height": 9,
+            "PlayerType": 0
+        }
+    ]
+}
