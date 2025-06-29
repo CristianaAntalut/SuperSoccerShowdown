@@ -20,6 +20,7 @@ namespace PlayerGenerator;
 public partial class PlayerGeneratorFunction
 {
     private ServiceCollection _serviceCollection;
+    private PlayersGeneratorSettings _playersGeneratorSettings;
     private readonly ILogger _logger;
 
     public PlayerGeneratorFunction()
@@ -45,7 +46,7 @@ public partial class PlayerGeneratorFunction
         var universe = factory.Create(request.UniverseType);
 
         _logger.LogInformation($"Generating players for universe: {universe.Type}");
-        var result = await universe.GetPlayersAsync(5);
+        var result = await universe.GetPlayersAsync(_playersGeneratorSettings.NumberOfPlayersToGenerate);
 
         return new PlayerGeneratorResponse
         {
@@ -63,6 +64,7 @@ public partial class PlayerGeneratorFunction
             .Build();
         _serviceCollection.Configure<SwapiClientSettings>(config.GetSection("SwapiClientSettings"));
         var swapiClientSettings = config.GetSection("SwapiClientSettings").Get<SwapiClientSettings>();
+        _playersGeneratorSettings = config.GetSection("PlayersGeneratorSettings").Get<PlayersGeneratorSettings>() ?? new();
 
         _serviceCollection.AddSingleton<PokeApiClient>();
         _serviceCollection.AddSingleton<PokemonClient>();
