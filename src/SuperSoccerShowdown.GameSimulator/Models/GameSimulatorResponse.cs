@@ -1,4 +1,4 @@
-﻿namespace SuperSoccerShowdown.Common.Models.GameSimulator;
+﻿namespace SuperSoccerShowdown.GameSimulator.Models;
 
 public class GameSimulatorResponse
 {

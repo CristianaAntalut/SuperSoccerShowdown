@@ -2,7 +2,7 @@ using Amazon.Lambda.Core;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using SuperSoccerShowdown.Common.Dtos;
-using SuperSoccerShowdown.Common.Models.TeamGenerator;
+using SuperSoccerShowdown.TeamGenerator.Models;
 using SuperSoccerShowdown.TeamGenerator.Interfaces;
 using SuperSoccerShowdown.TeamGenerator.Strategies;
 

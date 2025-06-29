@@ -1,9 +1,8 @@
 using Amazon.Lambda.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SuperSoccerShowdown.Common.Dtos;
-using SuperSoccerShowdown.Common.Models.GameSimulator;
 using SuperSoccerShowdown.GameSimulator;
+using SuperSoccerShowdown.GameSimulator.Models;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]

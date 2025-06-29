@@ -9,7 +9,7 @@ using SuperSoccerShowdown.PlayerGenerator.Universes.Interfaces;
 using SuperSoccerShowdown.PlayerGenerator.Universes.Poke;
 using SuperSoccerShowdown.PlayerGenerator.Universes.StarWars;
 using SuperSoccerShowdown.Common;
-using SuperSoccerShowdown.Common.Models.PlayerGenerator;
+using SuperSoccerShowdown.PlayerGenerator.Models;
 
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.

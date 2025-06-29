@@ -1,6 +1,6 @@
 using SuperSoccerShowdown.Common.Dtos;
 
-namespace SuperSoccerShowdown.Common.Models.PlayerGenerator;
+namespace SuperSoccerShowdown.PlayerGenerator.Models;
 
 public class PlayerGeneratorRequest
 {

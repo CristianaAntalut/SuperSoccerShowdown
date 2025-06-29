@@ -1,6 +1,6 @@
 using SuperSoccerShowdown.Common.Dtos;
 
-namespace SuperSoccerShowdown.Common.Models.TeamGenerator;
+namespace SuperSoccerShowdown.TeamGenerator.Models;
 
 public class TeamGeneratorRequest
 {
